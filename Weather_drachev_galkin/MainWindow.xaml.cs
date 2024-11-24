@@ -9,6 +9,9 @@ namespace Weather_drachev_galkin
 {
     public partial class MainWindow : Window
     {
+        private const string ApiKey = "64440d6f2fc047443c94bf721a6ae091";
+        private const string ApiUrl = "https://api.openweathermap.org/data/2.5/forecast?q={0}&appid={1}&units=metric&lang=ru";
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
