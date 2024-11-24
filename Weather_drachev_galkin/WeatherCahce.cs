@@ -35,6 +35,42 @@ namespace Weather_drachev_galkin
                 command.ExecuteNonQuery();
             }
         }
+        public static List<WeatherData> GetWeatherData(string city)
+        {
+            List<WeatherData> weatherDataList = new List<WeatherData>();
+
+            using (var connection = new SQLiteConnection($"Data Source={DbPath};Version=3;"))
+            {
+                connection.Open();
+                string selectQuery = @"
+                SELECT * FROM WeatherData
+                WHERE City = @City AND RequestDate = @RequestDate";
+
+                var command = new SQLiteCommand(selectQuery, connection);
+                command.Parameters.AddWithValue("@City", city);
+                command.Parameters.AddWithValue("@RequestDate", DateTime.Now.ToString("yyyy-MM-dd"));
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        weatherDataList.Add(new WeatherData
+                        {
+                            DateTime = reader["DateTime"].ToString(),
+                            Temperature = reader["Temperature"].ToString(),
+                            Pressure = reader["Pressure"].ToString(),
+                            Humidity = reader["Humidity"].ToString(),
+                            WindSpeed = reader["WindSpeed"].ToString(),
+                            FeelsLike = reader["FeelsLike"].ToString(),
+                            WeatherDescription = reader["WeatherDescription"].ToString()
+                        });
+                    }
+                }
+            }
+
+            return weatherDataList;
+        }
+
     }
 
 }
