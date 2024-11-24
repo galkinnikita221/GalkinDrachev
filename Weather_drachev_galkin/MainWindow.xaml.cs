@@ -22,7 +22,7 @@ namespace Weather_drachev_galkin
         {
             string defaultCity = "Пермь";
             await UpdateWeather(defaultCity);
-            UpdateRequestCount(); 
+            UpdateRequestCount();
         }
 
         private async void UpdateWeather_Click(object sender, RoutedEventArgs e)
@@ -36,8 +36,9 @@ namespace Weather_drachev_galkin
             }
 
             await UpdateWeather(city);
-            UpdateRequestCount(); 
+            UpdateRequestCount();
         }
+
         private async Task UpdateWeather(string city)
         {
             try
@@ -73,6 +74,7 @@ namespace Weather_drachev_galkin
                 MessageBox.Show($"Ошибка загрузки данных: {ex.Message}");
             }
         }
+
         private async Task<List<WeatherData>> FetchWeatherData(string city)
         {
             using (HttpClient client = new HttpClient())
@@ -107,12 +109,14 @@ namespace Weather_drachev_galkin
                 return weatherList;
             }
         }
+
         private void UpdateRequestCount()
         {
             int requestCount = WeatherCache.GetRequestCountForToday();
             RequestCountTextBlock.Text = $"Количество запросов сегодня: {requestCount}";
         }
     }
+
     public class WeatherData
     {
         public string DateTime { get; set; }

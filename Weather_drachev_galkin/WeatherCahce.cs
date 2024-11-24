@@ -8,6 +8,7 @@ namespace Weather_drachev_galkin
     public static class WeatherCache
     {
         private const string DbPath = "weatherCache.db";
+
         public static void InitializeDatabase()
         {
             if (!System.IO.File.Exists(DbPath))
@@ -35,6 +36,7 @@ namespace Weather_drachev_galkin
                 command.ExecuteNonQuery();
             }
         }
+
         public static void SaveWeatherData(string city, string dateTime, string temperature, string pressure, string humidity, string windSpeed, string feelsLike, string weatherDescription)
         {
             using (var connection = new SQLiteConnection($"Data Source={DbPath};Version=3;"))
@@ -58,6 +60,7 @@ namespace Weather_drachev_galkin
                 command.ExecuteNonQuery();
             }
         }
+
         public static List<WeatherData> GetWeatherData(string city)
         {
             List<WeatherData> weatherDataList = new List<WeatherData>();
@@ -93,6 +96,7 @@ namespace Weather_drachev_galkin
 
             return weatherDataList;
         }
+
         public static int GetRequestCountForToday()
         {
             int requestCount = 0;
