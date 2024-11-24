@@ -35,6 +35,29 @@ namespace Weather_drachev_galkin
                 command.ExecuteNonQuery();
             }
         }
+        public static void SaveWeatherData(string city, string dateTime, string temperature, string pressure, string humidity, string windSpeed, string feelsLike, string weatherDescription)
+        {
+            using (var connection = new SQLiteConnection($"Data Source={DbPath};Version=3;"))
+            {
+                connection.Open();
+                string insertQuery = @"
+                INSERT INTO WeatherData (City, DateTime, Temperature, Pressure, Humidity, WindSpeed, FeelsLike, WeatherDescription, RequestDate)
+                VALUES (@City, @DateTime, @Temperature, @Pressure, @Humidity, @WindSpeed, @FeelsLike, @WeatherDescription, @RequestDate)";
+
+                var command = new SQLiteCommand(insertQuery, connection);
+                command.Parameters.AddWithValue("@City", city);
+                command.Parameters.AddWithValue("@DateTime", dateTime);
+                command.Parameters.AddWithValue("@Temperature", temperature);
+                command.Parameters.AddWithValue("@Pressure", pressure);
+                command.Parameters.AddWithValue("@Humidity", humidity);
+                command.Parameters.AddWithValue("@WindSpeed", windSpeed);
+                command.Parameters.AddWithValue("@FeelsLike", feelsLike);
+                command.Parameters.AddWithValue("@WeatherDescription", weatherDescription);
+                command.Parameters.AddWithValue("@RequestDate", DateTime.Now.ToString("yyyy-MM-dd"));
+
+                command.ExecuteNonQuery();
+            }
+        }
         public static List<WeatherData> GetWeatherData(string city)
         {
             List<WeatherData> weatherDataList = new List<WeatherData>();
