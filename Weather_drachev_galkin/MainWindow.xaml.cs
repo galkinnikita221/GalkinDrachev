@@ -56,6 +56,40 @@ namespace Weather_drachev_galkin
                 MessageBox.Show($"Ошибка загрузки данных: {ex.Message}");
             }
         }
+        private async Task<List<WeatherData>> FetchWeatherData(string city)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                string url = string.Format(ApiUrl, city, ApiKey);
+                HttpResponseMessage response = await client.GetAsync(url);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new Exception($"Ошибка {response.StatusCode}: {response.ReasonPhrase}");
+                }
+
+                string responseBody = await response.Content.ReadAsStringAsync();
+                var json = JsonConvert.DeserializeObject<dynamic>(responseBody);
+
+                var weatherList = new List<WeatherData>();
+
+                foreach (var item in json.list)
+                {
+                    weatherList.Add(new WeatherData
+                    {
+                        DateTime = Convert.ToDateTime(item.dt_txt).ToString("dd.MM.yyyy HH:mm"),
+                        Temperature = $"{item.main.temp} °C",
+                        Pressure = $"{item.main.pressure} мм рт. ст.",
+                        Humidity = $"{item.main.humidity}%",
+                        WindSpeed = $"{item.wind.speed} м/с",
+                        FeelsLike = $"{item.main.feels_like} °C",
+                        WeatherDescription = item.weather[0].description.ToString(),
+                    });
+                }
+
+                return weatherList;
+            }
+        }
     }
     public class WeatherData
     {
