@@ -12,9 +12,17 @@ namespace Weather_drachev_galkin
         private const string ApiKey = "64440d6f2fc047443c94bf721a6ae091";
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/forecast?q={0}&appid={1}&units=metric&lang=ru";
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        public MainWindow()
         {
+            InitializeComponent();
+            WeatherCache.InitializeDatabase();
+        }
 
+        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            string defaultCity = "Пермь";
+            await UpdateWeather(defaultCity);
+            UpdateRequestCount(); 
         }
 
         private async void UpdateWeather_Click(object sender, RoutedEventArgs e)
