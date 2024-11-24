@@ -17,9 +17,18 @@ namespace Weather_drachev_galkin
 
         }
 
-        private void UpdateWeather_Click(object sender, RoutedEventArgs e)
+        private async void UpdateWeather_Click(object sender, RoutedEventArgs e)
         {
+            string city = CityTextBox.Text.Trim();
 
+            if (string.IsNullOrEmpty(city))
+            {
+                MessageBox.Show("Пожалуйста, введите название города.");
+                return;
+            }
+
+            await UpdateWeather(city);
+            UpdateRequestCount(); 
         }
         private async Task UpdateWeather(string city)
         {
@@ -89,6 +98,11 @@ namespace Weather_drachev_galkin
 
                 return weatherList;
             }
+        }
+        private void UpdateRequestCount()
+        {
+            int requestCount = WeatherCache.GetRequestCountForToday();
+            RequestCountTextBlock.Text = $"Количество запросов сегодня: {requestCount}";
         }
     }
     public class WeatherData
