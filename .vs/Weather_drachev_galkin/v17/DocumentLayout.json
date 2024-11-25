@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|c:\\users\\user\\desktop\\weather_drachev_galkin\\weather_drachev_galkin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|c:\\users\\user\\source\\repos\\galkindrachev\\weather_drachev_galkin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|solutionrelative:weather_drachev_galkin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\weather_drachev_galkin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|C:\\Users\\User\\source\\repos\\GalkinDrachev\\weather_drachev_galkin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|solutionrelative:weather_drachev_galkin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|c:\\users\\user\\desktop\\weather_drachev_galkin\\weather_drachev_galkin\\weathercahce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|C:\\Users\\User\\source\\repos\\GalkinDrachev\\weather_drachev_galkin\\weathercahce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBCB7BD2-DE99-47B6-AA98-07080E795192}|Weather_drachev_galkin\\Weather_drachev_galkin.csproj|solutionrelative:weather_drachev_galkin\\weathercahce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,25 +25,16 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherCahce.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\Weather_drachev_galkin\\WeatherCahce.cs",
-              "RelativeDocumentMoniker": "Weather_drachev_galkin\\WeatherCahce.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\Weather_drachev_galkin\\WeatherCahce.cs",
-              "RelativeToolTip": "Weather_drachev_galkin\\WeatherCahce.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:40:53.621Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\Weather_drachev_galkin\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\Weather_drachev_galkin\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Weather_drachev_galkin\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\Weather_drachev_galkin\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\Weather_drachev_galkin\\MainWindow.xaml",
               "RelativeToolTip": "Weather_drachev_galkin\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-24T12:16:36.021Z",
@@ -53,13 +44,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\Weather_drachev_galkin\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\Weather_drachev_galkin\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Weather_drachev_galkin\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Weather_drachev_galkin\\Weather_drachev_galkin\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\Weather_drachev_galkin\\MainWindow.xaml.cs",
               "RelativeToolTip": "Weather_drachev_galkin\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAkwC8AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T12:16:34.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherCahce.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\Weather_drachev_galkin\\WeatherCahce.cs",
+              "RelativeDocumentMoniker": "Weather_drachev_galkin\\WeatherCahce.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GalkinDrachev\\Weather_drachev_galkin\\WeatherCahce.cs",
+              "RelativeToolTip": "Weather_drachev_galkin\\WeatherCahce.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T13:40:53.621Z",
               "EditorCaption": ""
             }
           ]
