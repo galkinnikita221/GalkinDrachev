@@ -66,3 +66,37 @@ C:\Users\User\Source\Repos\GalkinDrachev\Weather_drachev_galkin\bin\Debug\System
 C:\Users\User\Source\Repos\GalkinDrachev\Weather_drachev_galkin\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\User\Source\Repos\GalkinDrachev\Weather_drachev_galkin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\User\Source\Repos\GalkinDrachev\Weather_drachev_galkin\obj\Debug\Weather_.0850A276.Up2Date
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\Weather_drachev_galkin.exe.config
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\Weather_drachev_galkin.exe
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\Weather_drachev_galkin.pdb
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\EntityFramework.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\EntityFramework.SqlServer.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\Newtonsoft.Json.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\SQLitePCLRaw.core.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Buffers.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Data.SQLite.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Data.SQLite.EF6.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Data.SQLite.Linq.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Memory.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Numerics.Vectors.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\EntityFramework.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\EntityFramework.SqlServer.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\Newtonsoft.Json.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Buffers.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Data.SQLite.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Memory.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Numerics.Vectors.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.csproj.AssemblyReference.cache
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\MainWindow.baml
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\MainWindow.g.cs
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\App.g.cs
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin_MarkupCompile.cache
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.g.resources
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.Properties.Resources.resources
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.csproj.GenerateResource.cache
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.csproj.CoreCompileInputs.cache
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.csproj.CopyComplete
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.exe
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.pdb
