@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media.Imaging;
 
 namespace Weather_drachev_galkin
 {
@@ -127,4 +128,5 @@ namespace Weather_drachev_galkin
         public string FeelsLike { get; set; }
         public string WeatherDescription { get; set; }
     }
+
 }

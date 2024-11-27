@@ -1,15 +1,37 @@
 ﻿<Window x:Class="Weather_drachev_galkin.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Прогноз погоды" Height="450" Width="800" Loaded="Window_Loaded">
-    <Grid>
-        <TextBox x:Name="CityTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" 
-                 Width="200" Height="30" Margin="10" />
-        <TextBlock x:Name="RequestCountTextBlock" FontSize="14"  Width="250" Height="30" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <Button Content="Обновить погоду" HorizontalAlignment="Left" VerticalAlignment="Top" 
-                Width="120" Height="30" Click="UpdateWeather_Click" Margin="220,10,0,0"/>
-        <DataGrid x:Name="WeatherDataGrid" AutoGenerateColumns="True" 
+        xmlns:local="clr-namespace:Weather_drachev_galkin"
+        Title="Прогноз погоды" Height="500" Width="800" Loaded="Window_Loaded">
+    <Grid Background="#F0F4F8">
+        <TextBox x:Name="CityTextBox" Width="250" Height="35" Margin="10,35,0,0" VerticalAlignment="Top"
+                 HorizontalAlignment="Left" 
+                 FontSize="16" BorderBrush="#2196F3" BorderThickness="2"/>
+
+        <Label Content="Введите город" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0"/>
+
+        <Button Content="Обновить погоду" Width="150" Height="35" Margin="270,35,0,0" 
+                VerticalAlignment="Top" HorizontalAlignment="Left" 
+                Background="#2196F3" Foreground="White" FontSize="14" 
+                BorderThickness="0" Cursor="Hand" Click="UpdateWeather_Click"/>
+
+        <TextBlock x:Name="RequestCountTextBlock" Width="250" Height="30" Margin="10" 
+                   VerticalAlignment="Top" HorizontalAlignment="Right" 
+                   FontSize="14" Foreground="#444" TextAlignment="Right"/>
+
+        <DataGrid x:Name="WeatherDataGrid" AutoGenerateColumns="False" 
                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
-                  Margin="10,50,10,10"/>
+                  Margin="10,100,10,10" HeadersVisibility="Column" GridLinesVisibility="None" 
+                  RowBackground="#FAFAFA" AlternatingRowBackground="#F0F0F0" BorderBrush="#DDD" BorderThickness="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата и время" Binding="{Binding DateTime}" Width="120"/>
+                <DataGridTextColumn Header="Температура" Binding="{Binding Temperature}" Width="100"/>
+                <DataGridTextColumn Header="Давление" Binding="{Binding Pressure}" Width="100"/>
+                <DataGridTextColumn Header="Влажность" Binding="{Binding Humidity}" Width="100"/>
+                <DataGridTextColumn Header="Ветер" Binding="{Binding WindSpeed}" Width="100"/>
+                <DataGridTextColumn Header="Ощущается как" Binding="{Binding FeelsLike}" Width="120"/>
+                <DataGridTextColumn Header="Описание" Binding="{Binding WeatherDescription}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

@@ -114,5 +114,4 @@ namespace Weather_drachev_galkin
             return requestCount;
         }
     }
-
 }
