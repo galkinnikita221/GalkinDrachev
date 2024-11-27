@@ -100,3 +100,5 @@ F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_d
 F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.csproj.CopyComplete
 F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.exe
 F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin.pdb
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\C# Projects\Weather_drachev_galkin\Weather_drachev_galkin\obj\Debug\Weather_drachev_galkin_MarkupCompile.lref

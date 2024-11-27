@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media.Imaging;
 
 namespace Weather_drachev_galkin
 {
@@ -102,14 +103,13 @@ namespace Weather_drachev_galkin
                         Humidity = $"{item.main.humidity}%",
                         WindSpeed = $"{item.wind.speed} м/с",
                         FeelsLike = $"{item.main.feels_like} °C",
-                        WeatherDescription = item.weather[0].description.ToString()
+                        WeatherDescription = item.weather[0].description.ToString(),
                     });
                 }
 
                 return weatherList;
             }
         }
-
 
         private void UpdateRequestCount()
         {
